@@ -1,0 +1,166 @@
+body{
+    background-image: url(img/Decore.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+
+header {
+    display: flex;
+    margin-top: 0;
+    margin-left: 0px;
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+header img {
+    padding: 40px 4%;
+    width: 114.91px;
+    height: 33.99px;
+}
+
+header nav ul a{
+    font-family: poppins;
+    font-size: 17px;
+    text-decoration: none;
+    color: #212832;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 180px;
+    gap: 62px;
+    justify-content: center;
+}
+
+header button{
+    margin-left: 40px;
+    width: 102px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #212832;
+    background-color: #ffffff00;
+}
+
+div.hero_content img{
+    width: 410px;
+    margin-left: 75px;
+}
+
+div.hero_content{
+    display: flex;
+    margin-left: 100px;
+}
+
+p.pg{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 10px;
+    color: #DF6951;
+}
+
+h1{
+    font-family: volkhov;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 48px;
+    color: #181E4B;
+    margin: 15px;
+}
+
+p.hero_pg{
+    font-family: poppins;
+    font-weight: medium;
+    font-size: 14px;
+}
+
+#btn_find{
+    font-family: poppins;
+    font-size: 10px;
+    width: 95px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F1A501;
+    color: #ffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all .3s ease-in-out;
+}
+
+#btn_find:hover{
+    transform: scale(1.2);
+}
+
+#btn_play{
+    border-radius: 50%;
+    border: none;
+    height: 42px;
+    width: 42px;
+    background-color: #DF6951;
+    color: #ffff;
+    margin-left: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all .3s ease-in-out;
+}
+
+#btn_play:hover{
+    transform: scale(1.2);
+}
+
+div.destinations{
+    display: flex;
+    justify-content: center;
+}
+
+#category{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-family: poppins;
+    font-weight: semibold;
+    font-size: 15px;
+    color: #5E6282;
+}
+
+div.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+    && img{
+        transition: all .3s ease-in-out;
+        border-radius: 30px;
+        height: 300px;
+    }
+}
+
+.cards img:hover{
+    transform: scale(1.2);
+
+}
+
+div.dest{
+
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 90px;
+    
+
+    && img{
+        width: 300px;
+        transition: all .3s ease-in-out;
+        box-shadow: #21283288;
+    }
+
+
+}
+
+.dest img:hover{
+    transform: scale(1.2);
+    box-shadow: 1px solid #83838382;
+}
+
+
